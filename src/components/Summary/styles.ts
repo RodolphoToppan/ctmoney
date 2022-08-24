@@ -9,7 +9,7 @@ margin-top: -10rem;
 div {
   background: var(--shape);
   padding: 1.5rem;
-  border-radius: 0.25rem;
+  border-radius: 0.15rem;
   color: var(--text-title);
 
   header {

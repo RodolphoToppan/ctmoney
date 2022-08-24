@@ -12,7 +12,7 @@ input {
   width: 100%;
   padding: 0 1.5rem;
   height: 4rem;
-  border-radius: 0.25rem;
+  border-radius: 0.15rem;
 
   border: 1px solid #d7d7d7;
   background: #e7e9ee;
@@ -35,7 +35,7 @@ button[type="submit"] {
   height: 4rem;
   background: var(--green);
   color: #FFF;
-  border-radius: 0.25rem;
+  border-radius: 0.15rem;
   border: 0;
   font-size: 1rem;
   margin-top: 1.5rem;
@@ -69,7 +69,7 @@ const colors = {
 export const RadioBox = styled.button<RadioBoxProps>`
 height: 4rem;
   border: 1px solid #d7d7d7;
-  border-radius: 0.25rem;
+  border-radius: 0.15rem;
 
   background: ${(props) => props.isActive ? transparentize(0.9, colors[props.activeColor]) : 'transparent'};
 
